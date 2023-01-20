@@ -7,4 +7,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-CMD [ "python3", "-m" , "flask", "--app", "flaskr/app", "run", "--host=0.0.0.0"]
+CMD [ "gunicorn", "-w", "4", "flaskr.app:app", "-b", "0.0.0.0:5000"]

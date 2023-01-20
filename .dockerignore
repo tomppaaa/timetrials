@@ -1,5 +1,12 @@
+.git
+.gitignore
+
 docs
-.venv
 scripts
-README.md
+
 __pycache__
+.venv
+
+
+README.md
+Dockerfile
