@@ -1,0 +1,5 @@
+docs
+.venv
+scripts
+README.md
+__pycache__
