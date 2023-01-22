@@ -1,26 +1,23 @@
 # Tsoha-projekti
 
-## Sukupuu
+## Forum
 
-Projektin aihe on siis sukupuusovellus.
+Projektin aihe on siis tehdä foorumi.
 
 ## Tietokanta
 
 Tietokanta itsessään tulee olemaan PostgreSQL-tietokanta.
 
-### Eri taulut
-* Ihmiset (sukupuussa)
-* Sukulaissuhteet
+### Eri taulut (ainakin)
+* Postaukset
 * Käyttäjät
 
 ### Hienommat toiminnot
-* Vain tietyn sukunimen omaavat ihmiset
-* Tietyn ihmisen kaikki sukulaiset (lähimmät sukulaiset ensin)
-* Tietyn ihmisen kaikki sukulaiset (iän mukaan (mistä poikki?))
-* Kaikkien ihmisten järjestäminen iän mukaan
-* Elävät ja kuolleet lol
-* Tietyn ihmisen lapset ja lapsenlapset yms
+* Lisätä postauksia
+* Käyttäjähallintajuttuja
+* Järjestää aiheittain tai jotain
+* Vaihdoin aiheen lennosta sunnuntaina joten tarkemmat jutut vielä hieman hukassa
 
-## Toteutus
-### Backend Python/Flask
-### Frontend Javascript(Typescript)/React (toivottavasti)
+%% ## Toteutus
+%% ### Backend Python/Flask
+%% ### Frontend Javascript(Typescript)/React (rip)

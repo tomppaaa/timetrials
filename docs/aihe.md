@@ -14,7 +14,7 @@
 * Laulu voi olla julkinen tai salainen
 * Taulua voi muuttaa jos se on julkinen / on muokattavissa
 
-## Foorumi (meh)
+## Foorumi (this)
 ### Tietokannan käyttö
 * Käyttäjät
 * Viestit
@@ -25,8 +25,9 @@
 * Käyttäjä voi muokata postauksiaan
 * Voi järjestää asiat alueen tai ketjujen tai emt mukaan
 * Hakea juttuja per viestien sisältö
+* Yms
 
-## Sukupuu (THIS)
+## Sukupuu
 ### Tietokannan käyttö
 * Immeiset
 * Sukulaissuhteet
