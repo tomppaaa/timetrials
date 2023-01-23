@@ -13,6 +13,9 @@ env:
   MINOR_STRING_TOKEN: "feat:"
   PATCH_STRING_TOKEN: "fix:"
 
+permissions:
+  contents: write
+
 jobs:
   bump-version:
     runs-on: ubuntu-latest
