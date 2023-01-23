@@ -9,9 +9,9 @@ env:
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   WITH_V: true
   DEFAULT_BUMP: patch
-  MAJOR_STRING_TOKEN: release:
-  MINOR_STRING_TOKEN: feat:
-  PATCH_STRING_TOKEN: fix:
+  MAJOR_STRING_TOKEN: "release:"
+  MINOR_STRING_TOKEN: "feat:"
+  PATCH_STRING_TOKEN: "fix:"
 
 jobs:
   bump-version:
