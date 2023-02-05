@@ -19,8 +19,6 @@ services:
     depends_on:
       db:
         condition: service_healthy
-    networks:
-      - flasknetwork
 
 
 
@@ -28,8 +26,6 @@ services:
     image: postgres:bullseye
     volumes:
       - postgres_db:/var/lib/postgresql/data
-    networks:
-      - flasknetwork
     env_file: .env
     environment:
       - POSTGRES_DB
@@ -44,15 +40,11 @@ services:
       timeout: 2s
       retries: 30
 
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8080:8080
+  # adminer:
+  #   image: adminer
+  #   restart: always
+  #   ports:
+  #     - 8080:8080
 
 volumes:
   postgres_db:
-
-networks:
-  flasknetwork:
-    driver: bridge

@@ -10,6 +10,15 @@ def test_db():
 
     with flaskr.app.app_context():
 
+        sql = "DROP TABLE test"
+        flaskr.db.session.execute(sql)
+
+        sql = "CREATE TABLE IF NOT EXISTS test (id int primary key, greeting text)"
+        flaskr.db.session.execute(sql)
+
+        sql = "INSERT INTO test (id, greeting) VALUES (1, 'hello')"
+        flaskr.db.session.execute(sql)
+
         result = flaskr.db.session.execute("SELECT * FROM test").fetchall()
         print(result)
 
