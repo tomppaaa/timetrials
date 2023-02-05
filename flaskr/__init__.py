@@ -14,12 +14,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-dbname = getenv("POSTGRES_DB")
-user = getenv("POSTGRES_USER")
-password = getenv("POSTGRES_PASSWORD")
-app.config[
-    "SQLALCHEMY_DATABASE_URI"
-] = f"postgresql://{user}:{password}@db:5432/{dbname}"
+app.config["SQLALCHEMY_DATABASE_URI"] = getenv("POSTGRES_URL")
 db = SQLAlchemy(app)
 
 app.register_blueprint(general.mod)

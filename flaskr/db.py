@@ -10,7 +10,7 @@ def test_db():
 
     with flaskr.app.app_context():
 
-        sql = "DROP TABLE test"
+        sql = "DROP TABLE IF EXISTS test"
         flaskr.db.session.execute(sql)
 
         sql = "CREATE TABLE IF NOT EXISTS test (id int primary key, greeting text)"
