@@ -14,7 +14,7 @@ load_dotenv()
 
 app = Flask(__name__)
 
-app.config["SQLALCHEMY_DATABASE_URI"] = getenv("POSTGRES_URL")
+app.config["SQLALCHEMY_DATABASE_URI"] = str(getenv("POSTGRES_URL"))
 db = SQLAlchemy(app)
 
 app.register_blueprint(general.mod)
