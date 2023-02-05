@@ -12,6 +12,7 @@ env:
   MAJOR_STRING_TOKEN: "release:"
   MINOR_STRING_TOKEN: "feat:"
   PATCH_STRING_TOKEN: "fix:"
+  NONE_STRING_TOKEN: "none:"
 
 permissions:
   contents: write
