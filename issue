@@ -1,0 +1,8 @@
+Sovellus lähti toimimaan tuotannossa, mutta se renderöi vasta lomakkeita. Sovelluksella on pintapuolinen skeema, mikä vaikuttaa sovelluksen toiminnan kannalta loogiselta. 
+Tietokantaa ei olla vielä integroitu sovellukseen vielä ollenkaan, joten sitä ei pääse testaamaan. 
+Tuotteita en saanut itse lisättyä kuitille ilman virhettä, en tiedä mistä ongelma johtui, koska tämä saattaa olla myös latauksessa tapahtuva ongelma. 
+Itse koodia tarkistatteassa, näyttää järkevältä ja hyvin organisoidulta. Selvästi hyvä kuva miten sovellusta lähetään toteuttamaan.
+
+Vähän on tehty, mutta en löydä mitään moitittavaa, eli ainoa rakentava palaute on se että työtä pitäisi saada eteenpäin. Vaikuttaa tällä hetkellä enemmän idealta kuin toteutukselta,
+eli seuraavassa vaiheessa kannattaa laittaa fokus sinne toteutukseen.
+
